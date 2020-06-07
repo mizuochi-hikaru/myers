@@ -3,7 +3,7 @@
 
 bool isArgumentValid(int argc, char *argv[], int *a, int *b, int *c) {
 
-	if (argc < 4) {
+	if (argc != 4) {
 		return false;
 	}
 
