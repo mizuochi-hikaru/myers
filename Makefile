@@ -1,7 +1,7 @@
 # クソダサMakefile
 
 
-all: myers
+all: myers test
 
 myers: bin/myers.o bin/myerslib.o
 	gcc -o bin/myers bin/myers.o bin/myerslib.o
